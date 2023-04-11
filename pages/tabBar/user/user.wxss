@@ -1,0 +1,132 @@
+.container {
+  width: 100vw;/*vw: 相对于视窗的宽度*/
+  height: 100vh;/*vw: 相对于视窗的高度*/
+  /* background: #f3f3f3;背景色 */
+  background: #f3f3f3;/*背景色*/
+}
+
+.header {
+  display: flex;/*弹性布局*/
+  flex-direction: column;/*主轴为垂直⽅向，起点在上沿。*/
+  justify-content: center;/*项⽬在主轴上居中对⻬*/
+  align-items: center;/*项⽬在交叉轴上居中对⻬ */
+  background-image: url('https://s0.meituan.net/bs/file/?f=my-canary:deploy/dpmmweb/client/dpmmweb/component/mycenter/img/bg.png');/*设置红色背景图*/
+  background-repeat: no-repeat;/*背景图像不平铺*/
+  background-position: 50%;/*设置背景图片的位置*/
+  background-size: 100% 300rpx;/*背景图像的尺寸大小*/
+  height: 300rpx;/*设置总体高度*/
+  overflow: hidden;/*隐藏溢出内容且不出现滚动条*/
+  text-align: center;/*设定元素内文本的水平对齐方式*/
+}
+
+.header .avatar {
+  width: 120rpx;/*宽*/
+  height: 120rpx;/*高*/
+  border-radius: 120rpx;/*圆形边框*/
+  border: 3px solid #fff;/*设置边框宽度及颜色*/
+  overflow: hidden;/*隐藏溢出内容且不出现滚动条*/
+}
+
+.header .name {
+  height: 45rpx;/*高*/
+  margin-top: 14rpx;/* 设置元素的上外边距*/
+  font-size: 32rpx;/*字体大小*/
+  line-height: 45rpx;/*多行文本的间距*/
+  color: #fff;/*字体颜色*/
+}
+
+/* 我的订单*/
+.order {
+  margin-top: 20rpx;/* 设置元素的上外边距*/
+  background: #fff;/*设置元素的上外边距*/
+  padding: 26rpx 30rpx 0;/*上 左右 下*/
+  background-color: white;
+  border-radius: 10rpx;
+  box-shadow: 2px 2px 2px 1px rgb(219, 91, 91);
+}
+
+.title-box {
+  position: relative;/*相对定位*/
+  width: 320rpx;
+  height: 42rpx;
+  margin: 0 auto;/*元素处于其父元素的居中位置*/
+}
+
+.title {
+  position: relative;
+  height: 42rpx;
+  width: 160rpx;
+  margin: 0 auto;
+  font-size: 32rpx;
+  line-height: 42rpx;
+  color: #333;
+  text-align: center;
+  background: #fff;
+  z-index: 9;/*属性设置元素的堆叠顺序*/
+}
+
+.order .title-line {
+  position: absolute;
+  width: 320rpx;
+  height: 1px;
+  left: 0;
+  top: 23rpx;
+  background: #f0f0f0;
+}
+
+.order-list {
+  display: flex;
+  height: 230rpx;
+  justify-content: space-around;
+  align-items: center;/*项⽬在交叉轴上居中对⻬ */
+  background: #fff;
+}
+
+.order-item {
+  width: 25%;/*设置宽度占50%*/
+  text-align: center;/*设定元素内文本的水平对齐方式*/
+}
+
+.order-item image {
+  width: 84rpx;
+  height: 84rpx;
+  margin-bottom: 6rpx;
+}
+
+.order-item view {
+  color: #333;
+  font-size: 28rpx;
+}
+
+.other{
+    margin-top: 40rpx;/* 设置元素的上外边距*/
+    background: #fff;/*设置元素的上外边距*/
+    padding: 26rpx 30rpx 0;/*上 左右 下*/
+    background-color: white;
+    border-radius: 10rpx;
+    box-shadow: 2px 2px 2px 1px rgb(219, 91, 91);
+}
+
+.other-list{
+    display: flex;
+    height: 300rpx;
+    align-items: center;/*项⽬在交叉轴上居中对⻬ */
+    background: #fff;
+}
+.other-item {
+    width: 25%;/*设置宽度占50%*/
+    text-align: center;/*设定元素内文本的水平对齐方式*/
+    background-color: white;
+    border-radius: 10rpx;
+    padding: 20rpx;
+  }
+
+button::after{
+    border: none;
+    border-radius: 0;
+  }
+
+.other-view {
+    color: #333;
+    font-size: 28rpx;
+  }

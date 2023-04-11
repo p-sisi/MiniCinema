@@ -1,0 +1,15 @@
+<view class='container'>
+  <view class='banner'>
+    <image src='/assets/images/guanyu.png' mode='aspectFill'></image>
+  </view>
+  <view class='section'>
+    <view wx:for='{{info}}' wx:key='{{item.label}}'>
+        <view class='section'>
+            <text>{{item.label}}：</text>
+            <text>{{item.value}}</text>
+        </view>
+    </view>
+    <view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,63 @@
+<view class='container'>
+
+    <view class='header'>
+        <!-- 头像&昵称 -->
+        <!-- 用户头像。不再返回，展示 灰色头像 -->
+        <!-- 用户昵称。不再返回，展示“微信用户” -->
+        <open-data type="userAvatarUrl" class='avatar'></open-data>
+        <open-data type="userNickName" class='name'></open-data>
+    </view>
+
+    <view>
+        <view class='order'>
+            <!-- 我的订单 -->
+            <view class='title-box'>
+                <!-- 小标题 -->
+                <view class='title'>我的订单</view>
+            </view>
+
+            <view class='order-list'>
+                <!-- 电影&小吃列表 -->
+                <!-- 页面链接 -->
+                <!-- url设置当前小程序内的跳转链接，无点击动态 -->
+                <navigator class='order-item' url='../../subPages/movie-order/movie-order' hover-class='none'>
+                    <image src='/assets/images/order_movie.png' style="height: 25px;width: 25px;"></image>
+                    <view>电影</view>
+                </navigator>
+
+                <navigator class='order-item' url='../../subPages/snack-order/snack-order' hover-class='none'>
+                    <image src='/assets/images/order_store.png' style="height: 25px;width: 25px;"></image>
+                    <view>小吃</view>
+                </navigator>
+            </view>
+        </view>
+
+        <view class='other'>
+            <!-- 其他服务 -->
+            <view class='title-box'>
+                <!-- 小标题 -->
+                <view class='title'>其他服务</view>
+            </view>
+
+            <view class='other-list'>
+                <!-- 页面链接 -->
+                <!-- url设置当前小程序内的跳转链接，无点击动态 -->
+                <button open-type='share' class='btn' hover-class='none' class="other-item">
+                    <text class='iconfont icon-fenxiang1'></text>
+                    <view class="other-view">分享朋友</view> 
+                </button>
+
+                <button open-type='contact' class='btn' hover-class='none' class="other-item">
+                    <text class='iconfont icon-lianxikefu'></text>
+                    <view class="other-view">客服反馈</view> 
+                </button>
+
+                <button id="button1" bindtap="goto" class="other-item">
+                    <text class='iconfont icon-guanyuwomen'></text> 
+                    <view class="other-view">关于</view>
+                </button>
+
+            </view>
+        </view>
+    </view>
+</view>
