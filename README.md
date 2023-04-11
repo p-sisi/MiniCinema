@@ -5,13 +5,11 @@
 
 <br/>
 
-### 代码仅供学习和参考，请勿直接商用（定制小程序加V，18771022533）
 
 
-
- **2019.12.14更新**    <br/>
+    <br/>
 今天看自己做的小程序时，发现很多页面都显示不了，原因是猫眼电影部分的API限制了，不能访问了，后期如果有时间准备自己搭建一个服务器来代理请求<br/>
- **2018.12.26更新**     <br/>
+   <br/>
 有人提供了一个城市列表接口可以获取城市ID：https://maoyan.com/ajax/cities、http://m.maoyan.com/dianying/cities.json（json格式）  <br/>
 
 另外此小程序没有选座功能。选座功能需要页面的缩放、座位的生成、座位的选择、座位的推荐等等，稍微复杂，所以就没有实现。网上有很多例子可以参考(<a href='https://juejin.im/post/5b85516251882542ba1dd12f?utm_medium=hao.caibaojian.com&utm_source=hao.caibaojian.com' target='_blank'>用Vue实现一个美团app的影院推荐选座功能</a>、<a href="https://github.com/zenghao0219/seat-select-wechat">小程序智能选座</a>)
@@ -19,8 +17,6 @@
 <br/>
 
 `github地址`：[基于原生小程序精仿的猫眼电影](https://github.com/zhangZhiHao1996/weapp-movie-master)  
-`扫描体验`：  
-<img src='https://img-blog.csdnimg.cn/20181105093504581.jpg'></img>
 <br/>
 
 ### 项目截图
@@ -128,12 +124,6 @@
 2. 关闭安全域名的校验（设置 --> 项目设置 --> 不校验合法域名）
 <br/>
 
-
-### 其他个人项目
-
-- [基于vue+vue-router+jsonp+vuex仿制的移动端`QQ音乐`](https://github.com/zhangZhiHao1996/vue-music-master)
-- [基于React-Antd的`后台模板Demo`](https://github.com/zhangZhiHao1996/react-admin-master)
-- [基于原生小程序精仿的`猫眼电影小程序`](https://github.com/zhangZhiHao1996/weapp-movie-master)
 
 <br/>
 
